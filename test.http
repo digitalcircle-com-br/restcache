@@ -1,0 +1,17 @@
+@base=http://localhost:8082
+
+POST {{base}}/keys/*
+
+###
+POST {{base}}/set/a
+
+{
+    "val":"123"
+}
+
+
+###
+POST {{base}}/get/a
+
+###
+POST {{base}}/del/a
